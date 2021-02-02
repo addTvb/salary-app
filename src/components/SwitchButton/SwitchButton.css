@@ -1,0 +1,31 @@
+.switch-wrap{
+    display: flex;
+    margin-bottom: 22px;
+}
+.switch-left{
+    margin-right: 8px;
+}
+.switch-label{
+    color:#b8b8b8;
+    font-weight: bold;
+    user-select: none;
+}
+.switch-label_active{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    user-select: none;
+}
+.custom-switch{
+    padding-left: 2.26rem;
+}
+
+.custom-control-label::before{
+    height: 1.3em;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before{
+    border-color: #ffaa00 !important;
+    background-color: #ffaa00 !important;
+    border-radius: 20px;
+}

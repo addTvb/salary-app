@@ -1,0 +1,16 @@
+.form-input{
+    display: flex;
+    align-items: center;
+}
+.form-control.form-control_input-salary{
+    width: 30%;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+}
+.form-input__text {
+    margin-left: 10px;
+    font-weight: bold;
+}

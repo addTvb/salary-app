@@ -1,0 +1,37 @@
+.btn.button-radius{
+    border-radius: 20px;
+    border: 1px solid#b8b8b8;
+    background-color: #fff;
+    color:#b8b8b8;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+}
+.btn.button-radius:focus{
+    background-color: #ffaa00;
+    box-shadow: none;
+}
+.btn.button-radius:hover{
+    background-color: #ffaa00;
+    border-color: #ffaa00;
+}
+.svg-inline--fa.fa-w-6.button-radius__icon{
+    vertical-align: 1px;
+    width: 0.3em;
+}
+.form-group__title{
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.popover-body.popover-body_violet{
+    padding: 28px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #5e6cab;
+    color:#fff;
+}
+.bs-popover-auto[x-placement^=right]>.arrow::after, .bs-popover-right>.arrow::after{
+    border-right-color: #5e6cab;
+}

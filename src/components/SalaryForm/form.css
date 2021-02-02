@@ -1,0 +1,12 @@
+.form-box{
+    justify-content: center;
+}
+.header-box{
+    padding-left: 42px;
+}
+.footer-box{
+    padding-top: 28px;
+}
+.form-group{
+    margin-bottom: 0.5rem;
+}

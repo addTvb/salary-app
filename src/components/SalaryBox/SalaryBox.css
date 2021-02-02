@@ -1,0 +1,11 @@
+.box-salary{
+    background-color: #fbf4da;
+    padding: 28px;
+}
+.box-salary__salary{
+    font-size: 18px;
+    font-weight: bold;
+}
+.box-salary__hidden {
+    display: none;
+} 
